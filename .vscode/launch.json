@@ -2,14 +2,20 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "command": "npm start",
+      "name": "Run npm start",
+      "request": "launch",
+      "type": "node-terminal"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Documentos/CC/Courses/C",
-      "program": "d:/Documentos/CC/Courses/C/build/Release/outRelease",
+      "cwd": "d:/Documentos/CC/Courses/C/Class01",
+      "program": "d:/Documentos/CC/Courses/C/Class01/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
