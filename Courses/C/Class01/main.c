@@ -1,6 +1,7 @@
+#include <stdio.h>
 int main()
 {
-    printf("Hello World\n");
+    printf("Compiled program\n");
     
     return 0;
 }
