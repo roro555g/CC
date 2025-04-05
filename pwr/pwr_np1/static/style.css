@@ -1,0 +1,43 @@
+
+        /* Cores da bandeira prussiana */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000; /* Preto */
+            color: #ffffff; /* Branco */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffcc00; /* Amarelo (dourado) */
+            color: #000000; /* Preto */
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+            color: white; /* Preto */
+            border: 2px solid #ffcc00; /* Borda dourada */
+            margin: 20px;
+        }
+        h2 {
+            color: #ffcc00; /* Amarelo (dourado) */
+        }
+        a {
+            color: #ffcc00; /* Amarelo (dourado) */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #ffcc00; /* Amarelo (dourado) */
+            color: #000000; /* Preto */
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
