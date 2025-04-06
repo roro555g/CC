@@ -5,22 +5,97 @@ body {
     color: #333; /* Cor padrão do texto */
     margin: 0;
     padding: 0;
+    margin-top: 60px; /* Ajuste conforme a altura do seu cabeçalho */
 }
 
-/* Cabeçalho */
+/* Estilo geral do cabeçalho */
 header {
+    background-color: #003366; /* Azul escuro */
+    color: #ffcc00; /* Amarelo */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.main-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-menu > li {
+    position: relative;
+    margin: 0 15px;
+}
+
+.main-menu a {
+    color: #ffcc00; /* Amarelo */
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    display: block;
+}
+
+.main-menu a:hover {
+    background-color: #ffcc00; /* Amarelo */
+    color: #003366; /* Azul escuro */
+}
+
+/* Estilo do dropdown */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #003366; /* Azul escuro */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-width: 200px;
+}
+
+.dropdown-menu li {
+    border-bottom: 1px solid #ffcc00; /* Amarelo */
+}
+
+.dropdown-menu a {
+    padding: 10px;
+    color: #ffcc00; /* Amarelo */
+}
+
+.dropdown-menu a:hover {
+    background-color: #ffcc00; /* Amarelo */
+    color: #003366; /* Azul escuro */
+}
+
+/* Mostrar dropdown ao passar o mouse */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Ajuste para o conteúdo não ficar oculto atrás do cabeçalho fixo */
+
+#header {
     background-color: #003366; /* Azul escuro */
     color: #ffffff; /* Amarelo para o texto */
     padding: 20px 0;
     text-align: center;
 }
 
-header h1 {
+#header h1 {
     margin: 0;
     font-size: 2.5em;
 }
 
-header p {
+#header p {
     margin: 5px 0 0;
     font-size: 1.2em;
 }
