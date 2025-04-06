@@ -1,0 +1,159 @@
+/* Definições gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Azul muito claro para o fundo geral */
+    color: #333; /* Cor padrão do texto */
+    margin: 0;
+    padding: 0;
+    margin-top: 60px; /* Ajuste conforme a altura do seu cabeçalho */
+}
+
+/* Estilo geral do cabeçalho */
+header {
+    background-color: #003366; /* Azul escuro */
+    color: #ffcc00; /* Amarelo */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.main-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-menu > li {
+    position: relative;
+    margin: 0 15px;
+}
+
+.main-menu a {
+    color: #ffcc00; /* Amarelo */
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    display: block;
+}
+
+.main-menu a:hover {
+    background-color: #ffcc00; /* Amarelo */
+    color: #003366; /* Azul escuro */
+}
+
+/* Estilo do dropdown */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #003366; /* Azul escuro */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-width: 200px;
+}
+
+.dropdown-menu li {
+    border-bottom: 1px solid #ffcc00; /* Amarelo */
+}
+
+.dropdown-menu a {
+    padding: 10px;
+    color: #ffcc00; /* Amarelo */
+}
+
+.dropdown-menu a:hover {
+    background-color: #ffcc00; /* Amarelo */
+    color: #003366; /* Azul escuro */
+}
+
+/* Mostrar dropdown ao passar o mouse */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Ajuste para o conteúdo não ficar oculto atrás do cabeçalho fixo */
+
+#header {
+    background-color: #003366; /* Azul escuro */
+    color: #ffffff; /* Amarelo para o texto */
+    padding: 20px 0;
+    text-align: center;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+#header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+
+/* Navegação */
+nav {
+    background-color: #002244; /* Azul ainda mais escuro */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #ffcc00; /* Amarelo para os links */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff; /* Branco para o fundo do conteúdo */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+h2 {
+    color: #003366; /* Azul escuro */
+    border-bottom: 2px solid #ffcc00; /* Linha amarela abaixo do título */
+    padding-bottom: 5px;
+}
+
+/* Listas */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #002244; /* Azul escuro */
+    color: #ffcc00; /* Amarelo para o texto */
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Links */
+a {
+    color: #003366; /* Azul escuro */
+}
+
+a:hover {
+    text-decoration: none;
+}
